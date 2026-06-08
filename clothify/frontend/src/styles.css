@@ -25,3 +25,147 @@ form button { padding: 10px; background: #111; color: #fff; border: none; cursor
 .create input, .create select { padding: 6px; border: 1px solid #ccc; border-radius: 4px; }
 
 button { cursor: pointer; }
+
+/* HOME PAGE */
+
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border-radius: 12px;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero span {
+  color: #0d6efd;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.hero-btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: #111;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #333;
+}
+
+.btn-secondary {
+  border: 1px solid #111;
+  color: #111;
+}
+
+.btn-secondary:hover {
+  background: #111;
+  color: white;
+}
+
+.section {
+  margin: 4rem 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section-sub {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.cats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.cat-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.cat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.cat-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.features-section {
+  background: #f8f9fa;
+  padding: 3rem 1rem;
+  border-radius: 12px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.feat {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: white;
+  padding: 1.2rem;
+  border-radius: 10px;
+}
+
+.feat-icon {
+  font-size: 2rem;
+}
+
+.cta {
+  text-align: center;
+  background: #111;
+  color: white;
+  padding: 4rem 1rem;
+  border-radius: 12px;
+  margin-top: 4rem;
+}
+
+.cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta p {
+  margin-bottom: 2rem;
+  color: #ccc;
+}
